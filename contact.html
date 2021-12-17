@@ -77,27 +77,27 @@
 							<div class="col-sm-6">
 								<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 									<div class="form-group">
-										<label>
+										<label for="name">
 											Nom
 										</label>
-										<input id="name" type="text" class="form-control" required />
+										<input id="name" name="name" type="text" class="form-control" required />
 									</div>
 									<div class="form-group">
-										<label>
+										<label for="email">
 											Adresse email
 										</label>
-										<input id="email" class="form-control" type="email" required />
+										<input id="email" name="email" class="form-control" type="email" required />
 									</div>
 									<div class="form-group">
-										<label>
+										<label for="where">
 											Comment nous avez-vous connu ?
 										</label>
-										<input class="form-control" type="text" required id="input_504" />
+										<input class="form-control" type="text" required id="input_504" name="where"/>
 									</div>
 									<div class="form-group">
-										<label>
+										<label for="message">
 											Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-										</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+										</label><textarea id="message" name="message" class="form-control" rows="4" cols="50" required></textarea>
 									</div> 
 									<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 										Envoyer
@@ -118,7 +118,7 @@
 				<!-- SECTION CONTACT END -->
 
 				<!-- SCROLL TO TOP BUTTON -->
-				<a href="#" class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+				<a href="#" class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')" aria-label="Return to the top page"><span class="fa fa-chevron-up"></span></a>
 				<!-- SCROLL TO TOP BUTTON END-->
 			</main>
 			<!-- FOOTER -->
