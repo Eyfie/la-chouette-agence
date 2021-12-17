@@ -752,8 +752,12 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
 }
 
 .bold-link {
@@ -816,6 +820,7 @@ h4 {
 .bg-presentation {
     background-image: url("../img/fond-image-de-presentation.webp");
 }
+
 
 @media (max-width: 1024px) {
     .bloc {
