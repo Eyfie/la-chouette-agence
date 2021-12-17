@@ -778,7 +778,24 @@ h4 {
 }
 
 .tc-white {
+    color: white!important;
+}
+
+.tc-tangerine{
     color: #F3976C!important;
+}
+
+.tc-black{
+    color: #2b2b2b!important;
+}
+
+.ltc-black{
+    color: #2b2b2b!important;
+    transition: color 0.3s ease-in-out;
+}
+
+.ltc-black:hover{
+    color: black!important;
 }
 
 .btn-atomic-tangerine {
