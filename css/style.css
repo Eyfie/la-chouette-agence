@@ -13,6 +13,15 @@ button {
     outline: none!important;
 }
 
+strong{
+    font-weight: inherit;
+}
+
+blockquote{
+    padding: 0;
+    border: none;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
